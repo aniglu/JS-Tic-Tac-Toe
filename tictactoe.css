@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    margin: 0;
+    background-color: #000000;
+    height: 100%;
+    color: #ffffff;
+
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Titan One', cursive;
+   /* text-transform: uppercase;*/
+    font-size: 35px;
+    display: flex;
+    margin-top: 0;
+    flex-wrap: wrap;
+    position:fixed;
+    top:0px;   
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Coiny', cursive;  
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ffffff;
+}
+#game{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.end{
+    color:#ff0000; 
+    font-family: 'Coiny', cursive;  
+    font-size: 50px;
+    position: absolute;
+    z-index: 100;
+    top:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
